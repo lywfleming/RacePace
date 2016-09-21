@@ -1,5 +1,5 @@
 ---
-title       : Race Pace Shiny App Predictor
+title       : Race Pace Shiny App Calculator
 subtitle    : 
 author      : Lynn Fleming
 job         : Johns Hopkins Developing Data Products Coursera Class
@@ -18,19 +18,19 @@ ext_widgets : {rCharts: ["libraries/nvd3"]}
 ## Introduction
 
 <p>
-The Race Pace Shiny App Predictor was developed to aid distance runners in calculating their optimal pace to be successful in a variety of race lengths.
+The Race Pace Shiny App Calculator was developed to aid distance runners in calculating their optimal pace to be successful in a variety of race lengths.
 </p>
 <p>
-The race pace predictor:
+The race pace calculator:
  <ul>
    <li>
 Calculates an individual's race pace based on their recorded time for a one mile time trial
    </li>
    <li>
-Based on Jeff Galloway's Magic Mile Race Prediction Formulas[1] he derived after working with data from 170,000 runners and compiling their race times.
+Based on Jeff Galloway's Magic Mile Race Formulas[1] he derived after working with data from 170,000 runners and compiling their race times.
    </li>
    <li>
-Calculations are not very accurate for faster time trial times around 4-5 minutes. The pace for a 10K is faster than that for a 5K.
+Calculations are not very accurate for faster time trial times around 4-5 minutes. The resulting pace for a 10K is faster than that for a 5K.
    </li>
    <li>
 Main drawback is that a one mile time trial can be run more anaerobically, whereas distance races are strictly aerobic.
@@ -45,7 +45,7 @@ Main drawback is that a one mile time trial can be run more anaerobically, where
 
 ## Formulas
 
-Below are the Prediction Formulas for typical race distances:
+Below are the Jeff Galloway formulas for typical race distances:
 
 <ul>
   <li>
@@ -70,10 +70,10 @@ Below are the Prediction Formulas for typical race distances:
 
 ---
 
-## Some Race Pace Predictions
+## Some Race Pace Calculations
 
 <!-- html table generated in R 3.3.1 by xtable 1.8-2 package -->
-<!-- Tue Sep 20 14:24:50 2016 -->
+<!-- Wed Sep 21 14:35:31 2016 -->
 <table border=1>
 <tr> <th>  </th> <th> Mile time </th> <th> 5K </th> <th> 10K </th> <th> Half Marathon </th> <th> Marathon </th>  </tr>
   <tr> <td align="right"> 1 </td> <td> 4:00 </td> <td> 4:33 </td> <td> 4:24 </td> <td> 4:48 </td> <td> 5:12 </td> </tr>
